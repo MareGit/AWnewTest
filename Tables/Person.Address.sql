@@ -8,7 +8,7 @@ CREATE TABLE [Person].[Address](
 	[AddressLine2] [nvarchar](60) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 	[City] [nvarchar](30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[StateProvinceID] [int] NOT NULL,
-	[PostalCode] [nvarchar](15) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+	[PostalCode1] [nvarchar](15) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 	[SpatialLocation] [geography] NULL,
 	[rowguid] [uniqueidentifier] ROWGUIDCOL  NOT NULL,
 	[ModifiedDate] [datetime] NOT NULL,
